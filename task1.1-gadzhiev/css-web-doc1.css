@@ -1,0 +1,101 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -60px 0; /* отрицательный нижний отступ на высоту футера */
+    padding: 0;
+}
+
+header { 	
+	padding: 15px;
+	height: 60px; 
+    text-align: left;
+    background-color: green;
+    clear: left;
+}
+
+nav
+{
+	text-align: left;	
+	padding-left: 15px;
+	width: 30%;
+	float: left;
+	background-color: pink;
+}
+
+section#main
+{
+	text-align: left;
+	background-color: yellow;
+	padding: 15px;
+
+	margin-left: 35%;
+}
+
+.footer-push, footer {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+	width: 100%;	
+
+	text-align: center;
+ 	background-color: green;
+}
+
+ul.footerlst {
+    /*list-style-type: none;*/
+    display: table;
+    margin: 0 auto;
+    /*background-color: #333333;*/
+}
+
+ul.footerlst li {
+    float: left;
+}
+
+ul.footerlst li a, nav li a {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+
+ul.footerlst li a:visited, ul.footerlst li a:link,
+nav li a:visited, nav li a:link {
+	color:blue; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+
+ul.footerlst li a:hover, nav li a:hover   {
+	color:red; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+
+ul.footerlst li a:active, nav li a:active   {
+	color:yellow; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
+
+p {
+	text-align: left;
+}
+
+h1, h2, h4 {
+	text-align: center;
+}
+
+img {
+	float:left;
+}
