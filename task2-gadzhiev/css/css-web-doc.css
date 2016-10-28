@@ -1,0 +1,232 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 -440px 0; /* отрицательный нижний отступ на высоту футера */
+    padding: 0;
+}
+
+header {
+	height: 80px; 
+    text-align: center;
+    background-color: #222222;
+    color : #dddddd;
+}
+
+#HText {
+	float: left;
+	display: inline;
+	
+	width: 45%;
+	padding: 10px;
+	padding-left: 20px;
+	font-size: 150%;
+}
+
+#HBlocks {
+	display: inline;
+	float: left;
+	margin-left: -65px;
+}
+
+#HBlocks #HLinkBlocks {
+	background-color: black;
+	height: 35px;
+	padding-top: 15px;
+	margin-top: 10px;
+}
+
+#HBlocks #HLinkBlocks #links1 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#HBlocks #HLinkBlocks #links1:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#HBlocks #HLinkBlocks #links1:hover{
+	background-color: #00F;
+	border-bottom-style: solid;
+	border-bottom-color: #00F;
+	border-bottom-width: 1px; 
+}
+
+#HBlocks #HLinkBlocks #links1:visited{
+	color: red;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#HBlocks #HLinkBlocks #links1:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+.imageContainer {
+	text-align: center;
+	padding: 20px;
+}
+
+.imageContainer .auxImgContainer1 {
+	/*text-align: center;*/
+	margin-top: 20px;
+}
+
+.imageContainer .auxImgContainer1 #image2 {
+	margin-right: 15px;
+	border : 3px double grey;
+}
+
+.imageContainer .auxImgContainer1 #image3 {
+	margin-right: 15px;
+	margin-left: 15px;
+	border : 3px double grey;
+}
+
+.imageContainer .auxImgContainer1 #image4 {
+	margin-left: 15px;
+	border : 3px double grey;
+}
+
+.txtContainer1 {
+	text-align: left;
+}
+
+.txtContainer1 #txtBlock1 {
+	margin-right: 15px;
+	margin-left: 170px;
+	float: left;
+}
+
+.txtContainer1 #txtBlock2 {
+	margin-right: 15px;
+	margin-left: 25px;
+	float: left;
+}
+
+.txtContainer1 #txtBlock3 {
+	margin-left: 10px;
+	margin-right: 170px;
+	float: right;
+}
+
+.txtContainer1 #txtBlock1, .txtContainer1 #txtBlock2, .txtContainer1 #txtBlock3 {
+	width: 290px;
+}
+
+#mainTxt {
+	word-wrap: break-word;
+}
+
+#orangeColor {
+	color: orange;
+	text-align: right;
+}
+
+.imgTxtContainer #txtBlock4  {
+	margin: 20px;
+	margin-top: 0;
+	margin-left: 170px;
+	width: 450px;
+	float: left;
+	text-align: left;
+}
+
+.imgTxtContainer #imgBlock1 {
+	margin-bottom: 70px;
+}
+
+.imgTxtContainer #imgBlock1 #image5 {
+	margin : 20px;
+	margin-left: 40px;
+}
+
+#links2 {
+	color: orange;
+}
+
+#links2:link, #links2:visited, #links2:hover, #links2:active {
+	color: orange;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+.footer-push, footer {
+    height: 440px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+	width: 100%;	
+}
+
+#rightAlign {
+	text-align: right;
+	float: right;
+}
+
+#leftAlign {
+	text-align: left;
+	float: left;
+}
+
+.linkBlocks {
+	/*padding: 20px;*/
+	color: #fff;
+	background-color: #444;
+	height: 370px;
+}
+
+
+.linkBlocks #linkBlock1, .linkBlocks #linkBlock2, 
+.linkBlocks #linkBlock3 {
+	float: left;
+	text-align: left;
+	width: 200px;
+}
+
+.linkBlocks #linkBlock4 {
+	float: right;
+	text-align: left;
+	width: 200px;
+
+	margin-left: 20px;
+	margin-right: 170px;
+}
+
+.linkBlocks #linkBlock1 {
+	margin-left: 170px;
+	margin-right: 20px;
+}
+
+.linkBlocks #linkBlock2 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.linkBlocks #linkBlock3 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.underAll {
+	/*padding: 20px;*/
+	padding-left: 170px;
+	padding-right: 170px;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 20px;*/
+	color: #ddd;
+	background-color: #222;
+	height: 70px;
+}
