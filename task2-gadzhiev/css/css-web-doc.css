@@ -13,38 +13,37 @@ div.container {
 }
 
 header {
-	height: 80px; 
-    text-align: center;
+	height: 80px;
+	width : 100%;
     background-color: #222222;
     color : #dddddd;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+}
+
+.subHeader {
+   	margin: 0 auto;
+	width: 960px;	
 }
 
 #HText {
-	float: left;
-	display: inline;
-	
-	width: 45%;
-	padding: 10px;
-	padding-left: 20px;
 	font-size: 150%;
+	float: left;
 }
 
 #HBlocks {
-	display: inline;
-	float: left;
-	margin-left: -65px;
+	float: right;
 }
 
 #HBlocks #HLinkBlocks {
 	background-color: black;
 	height: 35px;
 	padding-top: 15px;
-	margin-top: 10px;
 }
 
 #HBlocks #HLinkBlocks #links1 {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #HBlocks #HLinkBlocks #links1:link {
@@ -72,56 +71,59 @@ header {
 	text-decoration: none; 
 }
 
+.auxContainer {
+	margin : 0 auto;
+	width: 960px;
+   	padding-top: 20px;
+   	padding-bottom: 10px;
+   	clear: both;
+}
+
 .imageContainer {
 	text-align: center;
-	padding: 20px;
 }
 
 .imageContainer .auxImgContainer1 {
-	/*text-align: center;*/
-	margin-top: 20px;
+	margin-top : 20px;
 }
 
 .imageContainer .auxImgContainer1 #image2 {
-	margin-right: 15px;
 	border : 3px double grey;
+	margin-right: 30px;
 }
 
 .imageContainer .auxImgContainer1 #image3 {
-	margin-right: 15px;
-	margin-left: 15px;
 	border : 3px double grey;
 }
 
 .imageContainer .auxImgContainer1 #image4 {
-	margin-left: 15px;
 	border : 3px double grey;
+	margin-left: 30px;
 }
 
 .txtContainer1 {
-	text-align: left;
+	margin : 0 auto;
+	width : 960px;
 }
 
 .txtContainer1 #txtBlock1 {
-	margin-right: 15px;
-	margin-left: 170px;
 	float: left;
+	text-align: left;
+	margin-right: 30px;
+	width : 300px;
 }
 
 .txtContainer1 #txtBlock2 {
-	margin-right: 15px;
-	margin-left: 25px;
 	float: left;
+	text-align: left;
+	width: 300px;
 }
 
 .txtContainer1 #txtBlock3 {
-	margin-left: 10px;
-	margin-right: 170px;
 	float: right;
-}
-
-.txtContainer1 #txtBlock1, .txtContainer1 #txtBlock2, .txtContainer1 #txtBlock3 {
-	width: 290px;
+	text-align: left;
+	margin-left: 30px;
+	width : 300px;
 }
 
 #mainTxt {
@@ -133,24 +135,26 @@ header {
 	text-align: right;
 }
 
+.imgTxtContainer {
+	clear: both;
+	margin: 0 auto;
+	width: 960px;
+}
+
 .imgTxtContainer #txtBlock4  {
-	margin: 20px;
-	margin-top: 0;
-	margin-left: 170px;
-	width: 450px;
-	float: left;
 	text-align: left;
+	float: left;
+	width: 435px;
 }
 
 .imgTxtContainer #imgBlock1 {
-	margin-bottom: 70px;
+	float: right;
 }
 
-.imgTxtContainer #imgBlock1 #image5 {
-	margin : 20px;
-	margin-left: 40px;
-}
+/*.imgTxtContainer #imgBlock1 #image5 {
 
+}
+*/
 #links2 {
 	color: orange;
 }
@@ -162,71 +166,80 @@ header {
 }
 
 .footer-push, footer {
+	clear: both;
     height: 440px;
     margin: 0;
     padding: 0;
 }
 
 footer {
-	width: 100%;	
+	width: 100%;
+	color: #fff;
+	background-color: #444;	
 }
 
 #rightAlign {
-	text-align: right;
+	/*text-align: right;*/
 	float: right;
 }
 
 #leftAlign {
-	text-align: left;
+	/*text-align: left;*/
 	float: left;
 }
 
-.linkBlocks {
-	/*padding: 20px;*/
-	color: #fff;
-	background-color: #444;
+.headerlinkBlocks {
 	height: 370px;
+	margin: 0 auto;
+	width: 960px;
 }
 
+/*
+.headerlinkBlocks #headerBlocks {
+	clear :both;
+}
+*/
+.headerlinkBlocks #headerBlocks #headerBlock1, .headerlinkBlocks #headerBlocks #headerBlock2,
+.headerlinkBlocks #headerBlocks #headerBlock3 {
+	float: left;
+	text-align: center;
+	width: 210px;
+	margin-right: 40px;
+}
 
-.linkBlocks #linkBlock1, .linkBlocks #linkBlock2, 
-.linkBlocks #linkBlock3 {
+.headerlinkBlocks #headerBlocks #headerBlock4 {
+	float: left;
+	text-align: center;
+	width: 210px;
+}
+
+.headerlinkBlocks #linkBlocks {
+	clear: both;
+}
+
+.headerlinkBlocks #linkBlocks #linkBlock1, .headerlinkBlocks #linkBlocks #linkBlock2, 
+.headerlinkBlocks #linkBlocks #linkBlock3 {
 	float: left;
 	text-align: left;
-	width: 200px;
+	width: 210px;
+	margin-right: 40px;
 }
 
-.linkBlocks #linkBlock4 {
-	float: right;
+.headerlinkBlocks #linkBlocks #linkBlock4 {
+	float: left;
 	text-align: left;
-	width: 200px;
-
-	margin-left: 20px;
-	margin-right: 170px;
-}
-
-.linkBlocks #linkBlock1 {
-	margin-left: 170px;
-	margin-right: 20px;
-}
-
-.linkBlocks #linkBlock2 {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.linkBlocks #linkBlock3 {
-	margin-left: 20px;
-	margin-right: 20px;
+	width: 210px;
 }
 
 .underAll {
-	/*padding: 20px;*/
-	padding-left: 170px;
-	padding-right: 170px;
-	/*padding-top: 10px;*/
-	/*padding-bottom: 20px;*/
+	clear: both;
 	color: #ddd;
 	background-color: #222;
 	height: 70px;
+}
+
+#auxUnderAll {
+	margin: 0 auto;
+	width: 960px;
+	height: 20px;
 }
